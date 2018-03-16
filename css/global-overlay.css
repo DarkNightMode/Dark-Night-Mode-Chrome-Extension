@@ -1,0 +1,8 @@
+.dma-global-overlay {
+    opacity: .98;background-color: #171717;position: fixed;width: 100%;height:100%;z-index: 10000;pointer-events: none;top:0;left:0;
+}
+
+span, p, h1, h2, h3, h4, h5, h6, a{z-index: 100000 !important; position:relative; filter: brightness(145%) contrast(60%);}
+
+
+img{z-index: 10000 !important;}

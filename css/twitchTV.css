@@ -1,0 +1,499 @@
+/*
+Inspired from http://userstyles.org/styles/148766
+Applies to: go.twitch.tv, twitch.tv, https://passport.twitch.tv/*
+
+
+
+*/
+
+:root {
+    --purple: #A68ED2 !important;
+	--lightpurple: hsla(261, 43%, 60%, 1)!important;
+    --greybg: hsl(0, 0%, 11%) !important;
+    --midgrey: hsla(0, 0%, 12%, 1) !important;
+    --midgrey2: #282729!important;
+    --lightgrey: hsl(0, 0%, 20%) !important;
+    --bordercolor: hsla(0, 0%, 30%, 1) !important;
+    --textcolor: hsla(0, 0%, 80%, 1) !important;
+    --textcolor2: hsla(0, 0%, 50%, 1) !important;
+    --textcolor3: hsla(0, 0%, 70%, 1) !important;
+}
+
+.top-nav__menu {
+    background-color: var(--greybg)!important;
+    border-color: var(--lightgrey)!important;
+}
+
+.flex>* {
+    color:	var(--textcolor3)!important;
+}
+
+.channel-header {
+    background-color: var(--greybg)!important;
+    border-color: var(--lightgrey)!important;
+}
+
+.channel__main {
+	background-color: var(--greybg)!important;
+}
+
+.channel-info-bar {
+    background-color: var(--midgrey)!important;
+    border-color: var(--lightgrey)!important;
+    color:	var(--textcolor)!important;
+}
+
+.chat__header {
+	background-color: var(--greybg)!important;
+        box-shadow: inset 0 -1px 0 0 var(--lightgrey)!important;
+}
+
+.chat__pane {
+	background-color: var(--greybg)!important;
+    border-color: var(--lightgrey)!important;
+}
+
+.tw-button--hollow, .tw-button--hollow.tw-button--icon-only, .tw-button-icon--hollow{
+    border-color: var(--lightgrey)!important;
+}
+
+.theme--dark .side-nav__overlay-wrapper, .theme--dark .side-nav__theme-wrapper {
+    background-color: var(--greybg)!important;
+}
+
+.tw-textarea {
+    background-color: var(--greybg)!important;
+    color:var(--textcolor)!important;
+    box-shadow: inset 0 0 0 1px var(--textcolor2), 0 0 0 transparent !important;
+}
+
+.tw-input {
+    box-shadow: inset 0 0 0 1px var(--lightgrey), 0 0 0 transparent !important;
+}
+
+.theme--dark .side-nav-card__link {
+    background: var(--greybg)!important;
+}
+
+.top-nav__beta-badge {
+    background: var(--greybg)!important;
+}
+
+.top-nav__beta-badge:hover {
+    background: var(--purple)!important;
+}
+
+.tw-input {
+    background-color: var(--greybg)!important;
+    color: var(--textcolor)!important;
+}
+
+.browse {
+    background-color: var(--greybg)!important;
+    color: var(--textcolor)!important;
+}
+
+.tw-box-art-card__title {
+    color: var(--textcolor)!important;
+}
+
+.tw-box-art-card__title:hover {
+    color: var(--purple)!important;
+}
+
+.tw-tab-nav__item:not(.tw-tab-nav__item--disabled) a.active, .tw-tab-nav__item:not(.tw-tab-nav__item--disabled) button.active {
+    color: var(--textcolor)!important;
+}
+
+.game {
+    background-color: var(--greybg)!important;
+}
+
+.tw-thumbnail-card__title {
+    color: var(--textcolor)!important;
+}
+
+.tw-thumbnail-card__title:hover {
+    color: var(--purple)!important;
+}
+
+.tw-thumbnail-card__meta {
+    color: var(--textcolor3)!important;
+}
+
+.tw-button__text {
+	color:	var(--textcolor3)!important;
+}
+
+.svg--inherit, .theme--dark .svg--inherit, .theme--light .svg--inherit {
+    color:var(--textcolor3)!important;
+}
+
+.channel-header__item:before {
+    background: var(--lightgrey)!important;
+}
+
+.blue-bar, .theme--dark .blue-bar, .theme--light .blue-bar {
+    background: var(--lightgrey)!important;
+}
+
+.tw-c-background-alt {
+    background-color: var(--lightgrey)!important;
+}
+
+.tw-c-text-alt {
+    color: var(--textcolor)!important;
+}
+
+.tw-balloon {
+    box-shadow: 0 0 0 1px var(--lightgrey), 0 1px 1px rgba(0,0,0,.25) !important;
+}
+
+.tw-tab-nav {
+    box-shadow: inset 0 -1px 0 var(--lightgrey)!important;
+}
+
+.tw-box-art-card__meta {
+    color: var(--textcolor3)!important;
+}
+
+.search-title-bar {
+    background: var(--lightgrey)!important;
+	border:none!important;
+}
+
+.search-result-view__titlesep {
+    color: var(--textcolor)!important;
+    background: var(--midgrey)!important;
+}
+
+.tw-balloon {
+    background: var(--lightgrey)!important;
+    color: var(--textcolor)!important;
+}
+
+.tw-interactable--selected {
+    background: var(--lightgrey)!important;
+}
+
+.card__info {
+    color: var(--textcolor)!important;
+}
+
+.clips-modal-view {
+    background: var(--greybg)!important;
+    border-color: var(--lightgrey)!important;
+}
+
+.clips-modal-view .tw-input {
+    background: var(--midgrey)!important;
+}
+
+.c-text-alert, .c-text-live, .theme--dark .c-text-alert, .theme--dark .c-text-live, .theme--light .c-text-alert, .theme--light .c-text-live {
+    color: var(--purple)!important;
+}
+
+.ps--theme_twitch-light {
+    background: var(--greybg)!important;
+    color: var(--textcolor)!important;
+}
+
+.c-text-alt-2 {
+    color: var(--textcolor)!important;
+}
+
+.c-background-alt-2 {
+    background: var(--lightgrey)!important;
+}
+
+.border-b {
+    border-bottom: 1px solid var(--lightgrey)!important;
+}
+
+.chat-line__moderation, .chat-line__status {
+    color: var(--textcolor)!important;
+}
+
+.search-result-view__block {
+    background: var(--lightgrey)!important;
+}
+
+.ps--theme_twitch-light-no-fade>:before {
+    background: var(--lightgrey)!important;
+}
+
+.c-background {
+    background: var(--lightgrey)!important;
+}
+
+.c-text-link {
+    color: var(--purple)!important;
+}
+
+.search-panel__link {
+    color: var(--textcolor)!important;
+}
+
+.tw-pill--brand {
+    background: var(--purple)!important;
+}
+
+.tw-checkbox__label {
+    color: var(--textcolor)!important;
+}
+
+.theme--dark .c-text-alt {
+    color: var(--textcolor)!important;
+}
+
+.c-text-alt {
+    color: var(--textcolor3)!important;
+}
+
+.c-text {
+    color: var(--textcolor)!important;
+}
+
+button {
+	color: var(--textcolor)!important;
+}
+
+.c-background-alt {
+    background-color: var(--lightgrey)!important;
+}
+
+.carousel-nav__item {
+    border-color: var(--textcolor)!important;
+}
+
+.tw-interactable--hover, .tw-interactable:hover {
+    color: var(--textcolor)!important;
+}
+
+.twilight-root {
+    background-color: var(--greybg)!important;
+}
+
+.tw-input__icon svg {
+    fill: var(--textcolor)!important;
+
+}
+.side-nav-card__link:hover {
+    background-color: var(--lightgrey)!important;
+}
+
+.pinned-cheer {
+   display:none!important;
+}
+
+.border-t {
+    border-top: 1px solid var(--lightgrey)!important;
+}
+
+.anon-front__social-container {
+    background-color: var(--greybg)!important;
+}
+
+.theme--dark .border-r {
+    border-right: 1px solid var(--lightgrey)!important;
+}
+
+a {
+    color: var(--purple)!important;
+}
+
+.chat-viewers__header {
+    border-color: var(--lightgrey)!important;
+	background-color: var(--lightgrey)!important;
+}
+
+.chat-viewers__pane {
+    border-color: var(--greybg)!important;
+	background-color: var(--greybg)!important;
+}
+
+.passport-modal {
+    background-color: var(--greybg)!important;
+    min-width: 42rem;
+    min-height: 42rem;
+}
+
+.directory-tabs {
+    background-color: var(--midgrey)!important;
+    border-color: var(--bordercolor)!important;
+}
+
+.directory-tabs__item:before {
+    background: var(--bordercolor)!important;
+}
+
+.event {
+    background-color: var(--midgrey)!important;
+    border-color: var(--bordercolor)!important;
+}
+
+.event__broadcast {
+    border-left: 1px solid #a68ed2;
+    position: relative;
+}
+
+.pd-2.mg-b-2.full-width.c-background.border--marked.border-b.border-r.border-t.channel-login-upsell {
+    display: none;
+}
+
+.tw-button:hover {
+	border-color: var(--lightpurple)!important;
+}
+
+.theme--dark .tw-button, .theme--light .tw-button, .tw-button {
+    border: 1px solid transparent;
+    background: var(--midgrey2)!important;
+    color: #fff;
+}
+
+.follow-btn__dropdown-toggle, .theme--dark .follow-btn__dropdown-toggle, .theme--light .follow-btn__dropdown-toggle {
+    background: var(--midgrey2)!important;
+}
+
+.tw-button-icon--status {
+    background: var(--midgrey2)!important;
+    border:none;
+}
+
+.tw-button-icon--status:hover {
+    background: #ec1313!important;
+    color: var(--purple)!important;
+    border:none;
+}
+
+.tw-interactable--hover, .tw-interactable {
+    background-color: var(--greybg)!important;
+    color: var(--textcolor)!important;
+}
+
+.tw-interactable--hover, .tw-interactable:hover {
+    background-color: var(--lightgrey)!important;
+    color: var(--textcolor)!important;
+}
+
+.chat-room__pane.c-text.full-height.overflow-hidden.flex.flex-column.flex-grow-1.flex-nowrap.relative {
+    background-color: var(--greybg)!important;
+    color: var(--textcolor3)!important;
+}
+
+.chat-room__header.align-items-center.flex.flex-shrink-0.justify-content-center.pd-y-1 {
+    background-color: var(--midgrey)!important;
+    color: var(--lightgrey)!important;
+}
+
+.chat-room__header {
+    box-shadow: inset 0 -1px 0 0 var(--bordercolor)!important;
+}
+
+.chat-room__pane {
+    border-left: 1px solid var(--bordercolor)!important;
+}
+
+p {
+    color: var(--textcolor)!important;
+}
+
+.tw-strong {
+    color: var(--textcolor)!important;
+}
+
+.tw-c-background {
+    background-color: var(--midgrey)!important;
+    border-color: var(--bordercolor)!important;
+}
+
+.chat-room__pane {
+       background-color: var(--greybg)!important;
+}
+
+.chat-line__message, .chat-line__moderation, .chat-line__raid, .chat-line__status, .chat-line__subscribe {
+    color: var(--textcolor)!important;
+}
+
+.chat-room__header {
+        background-color: var(--greybg)!important;
+}
+
+.tw-input {
+    border: none;
+}
+
+.tw-border-b {
+    border-bottom: 1px solid var(--lightgrey)!important;
+}
+
+.right-column .tw-full-height .tw-flex-shrink-0 .tw-relative {
+        background-color: var(--greybg)!important;
+}
+
+.tw-border-l {
+    border-left: 1px solid var(--bordercolor)!important;
+}
+
+.tw-textarea {
+    border: 1px solid var(--bordercolor)!important;
+}
+
+.tw-c-background-alt-2 {
+    background-color: var(--greybg)!important;
+}
+
+.twilight-root {
+    color: var(--textcolor)!important;
+}
+
+.channel-header__user {
+    color: var(--textcolor3)!important;
+}
+
+.channel-header__user:hover {
+    color: var(--purple)!important;
+}
+
+.tw-select {
+    border: 1px solid var(--bordercolor)!important;
+    color: var(--textcolor)!important;
+}
+
+.tw-c-text-alert, .tw-c-text-live, .tw-theme--dark .tw-c-text-alert, .tw-theme--dark .tw-c-text-live, .tw-theme--light .tw-c-text-alert, .tw-theme--light .tw-c-text-live {
+    color: var(--purple)!important;
+}
+
+.tse-scroll-content {
+    background-color: var(--greybg)!important;
+}
+
+a .card__title {
+    color:var(--textcolor)!important;
+}
+
+.video-chat__header {
+    -webkit-box-shadow: inset 0 -1px 0 0 var(--lightgrey)!important;
+}
+
+.video-chat {
+	background-color: var(--greybg)!important;
+    border-color: var(--lightgrey)!important;
+}
+
+.video-chat textarea {
+    background-color: var(--greybg)!important;
+    color: var(--textcolor)!important;
+}
+
+.video-chat__input {
+    -webkit-box-shadow: inset 0 1px 0 0 var(--lightgrey)!important;
+}
+
+.vod-message.vod-message--focused, .vod-message:hover {
+    background-color: var(--lightgrey)!important;
+}
+
+.form__input[type=email], .form__input[type=password], .form__input[type=search], .form__input[type=text], select.form__input, textarea.form__input {
+    -webkit-box-shadow: inset 0 0 0 1px var(--lightgrey), 0 0 0 transparent!important;
+}

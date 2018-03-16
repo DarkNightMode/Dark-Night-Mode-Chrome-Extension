@@ -1,0 +1,110 @@
+html, html * {
+color: rgb(183, 183, 183) !important;}
+*{border-color:#a4afaf !important;}
+
+input[type="button"]:hover, input[type="submit"]:not(.color):hover,
+input[type="reset"]:hover, button:hover, select:hover {
+  color: #e9e9e9 !important;
+  background-color: #303030 !important;
+}
+
+
+a, a[class] {
+  color: #6091c1 !important;
+}
+
+
+li {
+  color: #004db3 !important;
+}
+
+tr {
+  color: #653d3d !important;
+}
+
+cite {
+  color: #268 !important;
+}
+
+input {
+  color: #257 !important;
+}
+
+em {
+  color: #DEF !important;
+}
+
+ul {
+  color: #650000 !important;
+}
+
+nobr {
+  color: #4a0505 !important;
+}
+
+
+strong {
+  color: #9CC !important;
+}
+
+
+b {
+  color: #7AF !important;
+}
+
+a:hover, a:hover *, a:visited:hover, a:visited:hover *, span[onclick]:hover, div[onclick]:hover,
+[role="link"]:hover, [role="link"]:hover *, [role="button"]:hover *, [role="menuitem"]:hover, [role="menuitem"]:hover *, .link:hover, .link:hover * {
+  color: #2a3bb1 !important;
+  background-color: #0000009c !important;
+}
+
+a:visited, a:visited * {
+  color: #607069 !important
+}
+
+a.highlight, a.highlight *, a.active, a.active *, .selected, .selected *, [href="#"] {
+  color: #DDD !important;
+  font-weight: bold !important
+}
+
+textarea, i, td {
+  color: #ACE !important;
+  /* text-shadow: -1px -1px #000, 1px -1px #000, -1px 1px #000, 1px 1px #000 !important; */
+}
+/* Removed selection color
+ ::-moz-selection {
+  color: #0FF !important;
+  background-color: #333 !important;
+}
+
+ ::selection {
+  color: #0FF !important;
+  background-color: #333 !important;
+}
+
+ ::-webkit-selection {
+  color: #0FF !important;
+  background-color: #333 !important;
+}
+*/
+
+abbr, progress, time, label, .date {
+  color: #CDEFC2 !important;
+}
+
+mark, code, pre, blockquote, [class*="quote"], td[style*="inset"][class="alt2"] {
+  background-color: #00090F !important;
+}
+
+ /* Removed because dropdown icons were having black background unnecessarily.
+nav, menu, html body [class*="open"], html body [id*="Dropdown"], html body [id*="dropdown"], html body [class*="Dropdown"],
+html body [class*="dropdown"], html body [id*="menu"]:not(SELECT), html body [class*="menu"]:NOT(SELECT), html body [class*="tooltip"],
+html body [class*="popup"], html body [id*="popup"], html body [class*="note"], html body [class*="detail"], html body [class*="description"] {
+  background-color: #232323 !important;
+}
+ */
+
+
+[onclick]:hover, [ondblclick]:hover, [onmousedown]:hover {
+  color: #FEFF97 !important
+}

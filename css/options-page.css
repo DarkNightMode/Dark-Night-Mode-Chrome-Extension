@@ -1,0 +1,179 @@
+* {
+    box-sizing:border-box;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #151515;
+    color: #adabab;
+}
+
+#dnmo-main-content {
+    height: 100%;
+    position: relative;
+}
+#dnmo-mc-wrapper {
+    padding-top: 20px;
+}
+#dnmo-top-part {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    text-align:  center;
+}
+
+#dnmo-options-content-part {
+    width: 65%;
+    margin: auto;
+}
+
+#dnmo-ocp-toggler {
+    width: 100%;
+    background-color: #343434;
+    border: 1px solid #3c3c3c;
+    min-height: 400px;
+    height: auto;
+}
+
+#dnmo-ocp-toggler:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#dnmo-ocp-toggler > div {
+    float: left;
+    height: 400px;
+}
+
+#dnmo-left-part {
+    width: 220px;
+    padding: 12px 0 0 0;
+}
+.dnmo-normal-style {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#dnmo-options-name-list {}
+
+li.dnmo-li-option-name {
+    height: 40px;
+    text-transform: capitalize;
+    background-color: #171717;
+    font-weight: 100;
+    text-indent: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 11px 0px;
+}
+#dnmo-right-part {
+    width: calc(100% - 220px);
+    background-color: #2f2f2f;
+    padding: 10px 10px 5px 10px;
+    position: relative;
+}
+
+#dnmo-right-part > div {height: calc(100% - 40px);overflow-y: scroll;padding-right:  7px;}
+span.dnmo-octdd {
+    font-size: 21px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+#dnmo-listed-whitelist-websites-list {
+    margin-top: 10px;
+    border: 1px solid #383838;
+}
+
+li.dnmo-lw-li {
+    height: 35px;
+}
+
+li.dnmo-lw-li > span {
+    display: block;
+    float: left;
+    height: 35px;
+}
+
+li.dnmo-lw-li:nth-child(odd) {
+    background-color: #363636;
+}
+
+li.dnmo-lw-li > span:first-child {
+    width: calc(100% - 40px);
+    text-indent: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 2.2;
+    color: #c4c3c3;
+}
+
+li.dnmo-lw-li > span:last-child {
+    width: 40px;
+    font-size: 0px;
+    background-image: url('../icons/icon_cross.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    cursor: pointer;
+}
+.dnmo-option-action-box {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    left: 0;
+    border-top: 1px solid #3f3f3f;
+    /* border-left: 1px solid #ddd; */
+}
+
+.dnmo-save-button {
+    width: 70px;
+    float: right;
+    margin: 5px;
+    height: 30px;
+    background-color: #00569a;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 2;
+    cursor: pointer;
+}
+
+
+
+/*html {
+   background-color: #252525 !important;
+   background-image: none !important;
+}*/
+::-webkit-scrollbar {
+ width: 7px;
+ height: 7px;
+}
+::-webkit-scrollbar-button {
+ width: 0px;
+ height: 0px;
+}
+::-webkit-scrollbar-thumb {
+ background: #525252;
+ border: 0px none #ffffff;
+ border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+ background: #4c4c4c;
+}
+::-webkit-scrollbar-thumb:active {
+ background: #404040;
+}
+::-webkit-scrollbar-track {
+ background: #272727;
+ border: 0px dashed #ffffff;
+ border-radius: 22px;
+}
+::-webkit-scrollbar-corner {
+ background: transparent;
+}

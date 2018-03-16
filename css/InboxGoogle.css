@@ -1,0 +1,118 @@
+/*
+Inspired from http://userstyles.org/styles/148734
+Applies to: inbox.google.com, talkgadget.google.com, https://inbox.google.com*, /.*hangouts\.google\.com/webchat/frame.*/
+
+
+
+
+
+
+
+
+*/
+
+
+.kgwWAf {
+     background-color: #222 !important;
+}
+
+.I, .c4, body{
+  background-color: #36393e !important;
+  color: #999 !important;
+}
+
+.bn, .bc, .u2.nJ, .br .aV, .X, .bJ, .ob{
+  background-color: #202733 !important;
+  color: #999 !important;
+}
+.lQ, .ss{
+  background-color: #2e3136 !important;
+  color: #ccc !important;
+  font-weight: bold !important;
+}
+.oa, .aO, .gb_X .gb_ea .gb_b, .gb_X .gb_vc.gb_wc{
+  filter:inherit !important;
+}
+.qy, .gb_Xb, .gb_ia, .gb_fa, .gb_zb{
+    color: #eee !important;
+	background-color: #222 !important;
+}
+.qG {
+    color: #eee !important;
+}
+
+.m9, .dy[disabled], .r6, .f0.jhBYqb, #gb#gb a.gb_O{
+  color: #999 !important;
+}
+.gL .dl, .g-W-aG-K, .IB, .ld, .gN, .nY, .t1, .g-W-K, .l1, .gg, .aO.Ipp0xc, .KW, .dU, .du, .rA, .lJ, .qY, .jA, .cC, .hX>img, .gX, .FK, .bD.SVcSYb, .gb_Xb, .e6 img, .tD img, .actionIcon, .sR, .g-Ku-mw .g-aq-jq, .pE>img, .hX>img{
+  filter:invert(100%) !important;
+  box-shadow: none !important;
+}
+.Y {
+  border-bottom-color: #686a6e !important;
+}
+.bB, .pj, .iQ, .fX, .ap, .ap :not(img), .gb_Eb *, .kH, .f9, .aR, .k, .bb .O-c3, .dm, .f5, .i8, .hs, .rI, .rJ, .de, .m7, .gb_ga, .gb_Bb, .gb_xb, .gb_ja, .hA, .d2, .fk, .do, .d2>.g-aq.g-Ku, .gmail_msg *{
+  background-color: #222 !important;
+  color: #999 !important;
+}
+
+/* Headers */
+.hn, .b4, .b4 .at, .h8, .dK, .gb_Z:hover .gb_4, .an, .nJ, .az, .nE, .Nm, .Mx, input, .cN:hover, .cQ:hover, .gb_Cb:hover, #aVMuZe:not(.m):not(.M) .ad>.I:not(.pU4C1e), #aVMuZe:not(.m):not(.M) .ay>.I, .ad.a1>*>*>.r:not(.B8), .ay.a1>*>*>.r, #aVMuZe:not(.m):not(.M) .ix.r, .d2>.g-aq.g-Ku:hover{
+  background: #2d2d2d !important;
+  color: #999 !important;
+}
+bB .at::before, .at::before, .aa::before, .an::before{
+  box-shadow: none !important;
+}
+.an::before{
+  border-width: 1px;
+  border-top-style: solid;
+  border-top-color:#444;
+}
+.HB {
+  background-color: #245231 !important;
+  color: #ccc !important;
+}
+
+a.dj, a:visited.dj{
+	color: #0096cf !important;
+}
+
+.te {
+    border-radius: 0;
+}
+
+/* search input */
+.rj {
+    background: #444 !important;
+}
+
+.gc {
+    background: #333 !important;
+    border: 1px solid #444 !important;
+    padding-left: 10px;
+}
+
+/* pin */
+.b2 {
+    background-color: #444 !important;
+}
+.b2.bM {
+    background-color: #444 !important;
+}
+.gH {
+    background-color: #555 !important;
+}
+
+
+/*settings button */
+.gb_Ea {
+    background: #222;
+    border: 1px solid #444;
+}
+
+.gb_zb .gb_yb:hover {
+    border-color: #444;
+    background-color: #000 !important;
+    background-image: none;
+}
