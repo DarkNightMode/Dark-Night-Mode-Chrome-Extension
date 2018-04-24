@@ -115,7 +115,8 @@ body {
     background-color: #2d2d2d !important;
 }
 .document-meta,
-.message-text {
+.message-text,
+.message-in .selectable-text {
     color: #d3d3d3 !important;
 }
 .message-datetime {
