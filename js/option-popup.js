@@ -29,6 +29,7 @@ var warning_en  = false,
         'duckduckgo.com': 'DuckDuckGo has an inbuilt dark mode. You can enable it by clicking on the menu button on the top right corner and clicking the grey/black circle. After doing that, click the whitelist button. If you are a frequent user of DuckDuckGo, this might give you a better browsing experience.',
         'darknightmode.com': 'Thank you for visiting our website. If you have any issues, then check out the FAQs. If you want to report a problem, click on the report button below.  If you like our plugin, please share it with your friends.',
         'discordapp.com': 'Discord has an inbuilt dark mode which you can enable by pressing the settings icon next to your username at bottom left corner. Then, click the Appearance option and choose dark. After that, click the whitelist button. This might give you a better experience if you are a frequent Discord user.'
+        'mail.google.com': 'Gmail has a darkmode theme that can be activated. See https://support.google.com/mail/answer/112508?hl=en for help on activating it.'
     },
     hostname: function (url) {
         url = url.replace("www.", '');
